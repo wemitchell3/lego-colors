@@ -2,31 +2,43 @@
   "entries": [
     {
       "id": 1,
-      "creator": "",
-      "color": "",
-      "shape": "",
-      "creation": ""
+      "creator": "Billy",
+      "color": 4,
+      "shape": "square",
+      "creation": "bus"
     },
     {
-      "creator": "test",
-      "shape": "test2",
-      "creation": "test3",
-      "color": "1",
+      "creator": "Billy My",
+      "shape": "round",
+      "creation": "earth",
+      "color": 4,
       "id": 2
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "red"
     },
     {
-      "creator": "test",
-      "shape": "test2",
-      "creation": "test3",
-      "color": "3",
-      "id": 3
+      "id": 2,
+      "color": "green"
     },
     {
-      "creator": "test",
-      "shape": "test2",
-      "creation": "test3",
-      "color": "6",
-      "id": 4
+      "id": 3,
+      "color": "yello"
+    },
+    {
+      "id": 4,
+      "color": "blue"
+    },
+    {
+      "id": 5,
+      "color": "orange"
+    },
+    {
+      "id": 6,
+      "color": "black"
     }
   ]
 }

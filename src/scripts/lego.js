@@ -1,5 +1,5 @@
-// Function to handle collecting data after save button has been clicked then calls the post 
-// to api function and passes in values 
+// Function to handle collecting data after save button has been clicked then calls the post
+// to api function and passes in values
 
 const handleAddEntry = () => {
   const creatorInput = document.querySelector("#legoCreator")
@@ -11,7 +11,7 @@ const handleAddEntry = () => {
       creator: creatorInput.value,
       shape: shapeInput.value,
       creation: creationInput.value,
-      color: colorInput.value
+      color: parseInt(colorInput.value)
   }
   postEntry(legoEntry)
 }
